@@ -1,10 +1,111 @@
-body {
-    font-family: 'Inter';
+body{
+    margin: 0;
+    padding: 0;
+
+    /* 
+    width: 1440px;
+    height: 800px;
+ */
+}
+.head-container{
+    display: grid;
+    width: 100%;
+    height: auto;
+
+    grid-template-columns: repeat()
 }
 
-h1 {
-    text-align: center;
+/* ul{
+    list-style-type: none;
+    text-decoration: none; 
+    padding: 0;
+    display: inline;
 }
+
+li {
+} */
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+    font-size: 15px;
+	&__title {
+		margin: 0px 30px;
+	}
+	&__item {
+		display: inline-block;
+		margin: 0px 30px;
+	}
+}
+
+.nav ul{
+    list-style-type: none;
+    text-decoration: none; 
+    padding: 0;
+}
+
+.nav ul > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+}
+
+#nav_one li {
+    /* margin: 10px; */
+    padding:10px;
+  }
+
+.nav a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+    letter-spacing: .2rem;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.nav a:hover{
+    /* when hover over words it does this */
+    color:rgb(255, 255, 255);
+    background-color: rgb(61, 62, 65);  
+    border-radius: 20px; 
+    padding: 10px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+/* cover image */
+
+#cover-img{
+    width: 1000px;
+    height: 500px;
+    /* padding-left:200px; */
+    padding-top:5px;
+    margin-left: 15%;
+    border-radius: 5%;
+}
+
+#centered{
+        /* center text in img */
+        position: absolute;
+        top: 36%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+}
+
+#centered_{
+    position: absolute;
+    top: 44%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+/* grid body */
 
 h2 {
     margin-left: 50px;
@@ -39,10 +140,6 @@ h2 {
     border-radius: 15px;
 }
 
-
-
 .grid-item h3 {
     margin: 0;
-    
 }
-
