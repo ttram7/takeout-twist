@@ -40,24 +40,41 @@
            <h1 id="centered"><b>Food</b> You Love, <br> <b>Made</b> In Your Home</h1>
            <p id="centered_">From quick and easy takeout to gourmet restaurant food, <br> we have something for every taste and occasion </p>
        </div>
-        <h2 class="section-title">Menu Items</h2>
-        <h2>What are you craving?</h2>
-            <div class = "grid-container">
-                <div class = "grid-item">
-                    <img src="food/secret-aardvark-nacho-fries.jpeg" alt="secret aardvark nacho fries">
-                    <h3>Secret Aardvark Nacho Fries</h3>
+        <h2 class="section-title">Recipe</h2>
+            <div class = "food-item-container">
+                <div class="ingredient-list">
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>1 pound ground beef, browned, drained, seasoned with taco seasoning</li>
+                        <li>8 taco bowl shells</li>
+                        <li>1 can refried beans</li>
+                        <li>8 tbsp taco sauce</li>
+                        <li>shredded colby cheese</li>
+                        <li>toppings: tomatoes, sour cream, scallions</li>
+                    </ul>
                 </div>
-                <div class = "grid-item">
-                    <img src="food/Chicken-Bacon-Ranch-Crunchwrap-Product-Image.jpg" alt="crunchwrap supreme">
-                    <h3>Crunchwrap Supreme</h3>
+                <div class="cooking-instructions">
+                    <h2>Instructions</h2>
+                    <ol>
+                        <li>Brown drain and season the ground beef with your favorite taco seasoning.</li>
+                        <li>Bake the shells flat in the oven till just golden brown.</li>
+                        <li>Spread 4 of the shells with refried beans.</li>
+                        <li>Split the ground beef between the 4 shells.</li>
+                        <li>Spread 2 T of taco sauce on each of the remaining 4 shells.</li>
+                        <li>Top with cheese.</li>
+                        <li>Lightly broil the cheese and sauced shells till melty.</li>
+                        <li>Place those on top of the beef and bean shells.</li>
+                        <li>Top with your favorite toppings and enjoy!</li>
+                    </ol>
                 </div>
-                <div class = "grid-item">
-                    <img src="food/CrunchyTaco.webp" alt="crunchy taco">
-                    <h3>Crunchy Taco</h3>
-                </div>
-                <div class = "grid-item">
-                    <img src="food/mexican pizza.jpeg" onclick="routeFoodItemPage()" alt="mexican pizza">
-                    <h3>Mexican Pizza</h3>
+                <div class="food-info">
+                    <img src="food/mexican pizza.jpeg" class="food-pic" alt="mexican pizza">
+                    <h2 id="food-title">Mexican Pizza</h2>
+                    <div class="info">
+                        <p>servings: 4</p>
+                        <p>time: 30 min</p>
+                        <button class="favorite-btn" onclick="addToFavorites()"><i class="fas fa-heart"></i> Favorite</button>
+                    </div>
                 </div>
     </body>
 </html>

@@ -7,3 +7,13 @@ function routeNewPage() {
 function routeFoodPage() {
     window.location = 'food-list.html';
 }
+
+function routeFoodItemPage() {
+    window.location = 'food-item.html';
+}
+
+function addToFavorites () {
+    const button = 
+        document.querySelector('button');
+        button.innerHTML = 'Added to favorites!';
+}

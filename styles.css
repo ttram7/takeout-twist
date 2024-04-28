@@ -163,6 +163,18 @@ h2 {
     margin-left: 50px;
 }
 
+.section-title {
+    text-align: center;
+}
+
+.food-item-container {
+    display: grid;
+    grid-template-columns:
+      repeat(3, 1fr);
+    gap: 50px;
+    margin: 50px
+}
+
 .grid-container {
     display: grid;
     grid-template-columns:
@@ -194,4 +206,27 @@ h2 {
 
 .grid-item h3 {
     margin: 0;
+}
+
+.food-pic {
+    height: 75%;
+    width: 75%;
+}
+
+#food-title {
+    margin-left: 80px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns:
+      repeat(3, 0.5fr);
+    gap: 10px;
+    margin-top: 0;
+}
+
+.favorite-btn {
+    height: auto;
+    width: 75%;
+    align-self: center;
 }
